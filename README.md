@@ -8,53 +8,18 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-Step 1: Prepare the Dataset
+1.Input the Dataset
+Create a dataset with Hours Studied as input (X) and Marks Scored as output (Y).
 
-Create a dataset containing:
+2.Split and Train the Model
+Split the dataset into training and testing sets.
+Create and train the Linear Regression model using training data.
 
-Input feature: Hours_Studied
+3.Test and Evaluate
+Predict marks for the test data and calculate evaluation metrics like MSE and R² score.
 
-Target variable: Marks_Scored
-
-Convert the dataset into a DataFrame.
-
-Separate the dataset into:
-
-X (Independent Variable) → Hours_Studied
-
-Y (Dependent Variable) → Marks_Scored
-
-Step 2: Split and Train the Model
-
-Split the dataset into training data (80%) and testing data (20%).
-
-Create a Linear Regression model.
-
-Train the model using the training data.
-
-Step 3: Test and Evaluate the Model
-
-Predict marks using the test dataset.
-
-Calculate:
-
-Slope (m)
-
-Intercept (c)
-
-Mean Squared Error (MSE)
-
-R² Score
-
-Visualize the regression line along with actual data points.
-
-Step 4: Predict New Output
-
-Accept new input value (study hours) from the user.
-
-Use the trained model to predict marks.
-
-Display the predicted result.
+4.Predict New Values
+Take new study hours as input and use the trained model to predict the marks.
 
 ## Program:
 ```
